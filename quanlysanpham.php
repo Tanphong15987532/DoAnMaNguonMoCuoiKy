@@ -53,7 +53,7 @@ foreach ($data as $value) {
 $hinhanh1=$hinh[0];
 ?>
 
-     <td style="text-align: center;"><img style="width: 100px;height: 100px;" src="<?php echo $hinhanh1 ?>"> </td>
+     <td style="text-align: center;"><img style="width: 100px;height: 100px;" src="img/<?php echo $hinhanh1 ?>"> </td>
       <td style="text-align: center;"><?php echo $value['masp'] ?></td>
       <td style="text-align:left; padding-left: 30px;"><?php echo $value['tensp'] ?>
         
